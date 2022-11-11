@@ -1,0 +1,22 @@
+.header{
+    font-size: 24px;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-links{
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
