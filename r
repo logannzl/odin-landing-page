@@ -1,1 +1,0 @@
-A simple project to create a landing page based on a given design.

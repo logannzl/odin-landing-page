@@ -4,19 +4,203 @@
     background-color: #1F2937;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
-
-.header-links{
-    font-size: 18px;
-    color: #E5E7EB;
-    font-family: Arial, Helvetica, sans-serif;
-
+.header-space{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 ul{
     list-style: none;
+    display: flex;
+    gap: 16px;
+    text-decoration: none;
 }
 
 a{
     text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.block-one{
+    background-color:#1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: stretch;
+    margin-left: 20%;
+    margin-right: 20%;
+    gap: 20px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 15px;
+}
+
+.intro-title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.intro-text{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E5E7EB;
+    flex-wrap: wrap;
+}
+
+.intro-image{
+    flex: 1;
+    background-color: grey;
+}
+
+button.sign-up{
+    background-color: #3882F6;
+    border: 1px solid #3882F6;
+    color: #E5E7EB;
+    padding: 8px 16px;
+    font-size: 18px;
+    border-radius: 8px;
+    font-weight: bold;
+    width: 30%
+}
+
+.block-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.second-title{
+    margin-top: 32px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.image-group{
+    display: flex;
+    padding: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.image{
+    flex-wrap: wrap;
+    padding: 16px;
+    display: flex;
+}
+
+.second-image{
+    margin-bottom: 10px;
+    height: 200px;
+    width: 200px;
+    border: 3px solid darkcyan;
+    border-radius: 8px;
+    flex:1;
+    text-align: center;
+}
+
+.block-three{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote, .signature{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.quote{
+    margin-top: 100px;
+}
+.signature{
+    text-align: end;
+    font-style: normal;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    margin-bottom: 100px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 8px;
+}
+
+.call{
+    color: #E5E7EB;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.action{
+    color:#E5E7EB;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;;
+}
+.banner-text{
+    margin-left: 15%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+button.action-button{
+    margin-right: 15%;
+    border: 2px solid #E5E7EB;
+    border-radius: 6px;
+    padding: 8px 32px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#E5E7EB;
+    font-size: 18px;
 }
